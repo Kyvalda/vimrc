@@ -10,3 +10,9 @@
 [submodule "bundle/xolox-misc"]
 	path = bundle/xolox-misc
 	url = git://github.com/xolox/vim-misc.git
+[submodule "bundle/vim-easytags"]
+	path = bundle/vim-easytags
+	url = git://github.com/xolox/vim-easytags.git
+[submodule "bundle/taglist.vim"]
+	path = bundle/taglist.vim
+	url = git://github.com/vim-scripts/taglist.vim.git
