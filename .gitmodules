@@ -16,3 +16,9 @@
 [submodule "bundle/taglist.vim"]
 	path = bundle/taglist.vim
 	url = git://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/pyflakes.vim"]
+	path = bundle/pyflakes.vim
+	url = https://github.com/vim-scripts/pyflakes.vim
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
