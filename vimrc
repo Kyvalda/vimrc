@@ -2,7 +2,7 @@ call pathogen#runtime_append_all_bundles()
 
 " colorscheme desert
 set t_Co=256
-colorscheme molokai
+colorscheme zenburn
 " set guifont=ter-c20b:h15
 set guifont=Terminus
 set fileencodings=utf-8
