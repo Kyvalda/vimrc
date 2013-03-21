@@ -1,4 +1,7 @@
 call pathogen#runtime_append_all_bundles()
+filetype off
+syntax on
+filetype plugin indent on
 
 " colorscheme desert
 set t_Co=256
@@ -6,11 +9,6 @@ colorscheme zenburn
 " set guifont=ter-c20b:h15
 set guifont=Terminus
 set fileencodings=utf-8
-" Set syntax highlighting to always on
-syntax enable
-" Set automatic filetype detection to on
-filetype on
-filetype plugin indent on
 set nocompatible
 set modelines=0
 set tabstop=4
@@ -79,3 +77,5 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 
 let g:DoxygenToolkit_authorName="Anton Romanov" 
 let g:DoxygenToolkit_licenseTag="AS IS"
+
+let g:clang_library_path="/usr/lib/llvm/"
