@@ -77,5 +77,11 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 
 let g:DoxygenToolkit_authorName="Anton Romanov" 
 let g:DoxygenToolkit_licenseTag="AS IS"
+if filereadable("/usr/lib/llvm/libclang.so")
+    let g:clang_library_path="/usr/lib/llvm/"
+else
+    let g:clang_library_path="/usr/local/lib"
+endif
+let g:clang_close_preview=1 " close preview window after completion
+let g:clang_user_options='-std=c++11'
 
-let g:clang_library_path="/usr/lib/llvm/"
