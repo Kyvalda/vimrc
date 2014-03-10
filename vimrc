@@ -67,7 +67,8 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 nnoremap <F11> :RainbowParenthesesToggle<cr>
-nnoremap <F12> :NERDTreeToggle<cr>
+"nnoremap <F12> :NERDTreeToggle<cr>
+nnoremap <F12> :NERDTreeTabsToggle<cr>
 nnoremap <F10> :call SessionManagerToggle()<cr><cr>
 
 :let g:session_autoload = 'yes'
