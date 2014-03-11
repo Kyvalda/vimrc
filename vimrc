@@ -8,6 +8,9 @@ set t_Co=256
 colorscheme zenburn
 " set guifont=ter-c20b:h15
 set guifont=Terminus
+if has("gui_macvim")
+    set guifont=Anonymous\ Pro:h18
+endif
 set fileencodings=utf-8
 set nocompatible
 set modelines=0
