@@ -82,3 +82,7 @@ nnoremap <silent> <F8> :TlistToggle<CR>
 let g:DoxygenToolkit_authorName="Anton Romanov" 
 let g:DoxygenToolkit_licenseTag="AS IS"
 let g:ycm_global_ycm_extra_conf = '~/.vim/ycm_extra_conf.py'
+if filereadable("/usr/local/bin/python2.7")
+	let g:ycm_path_to_python_interpreter = '/usr/local/bin/python2.7'
+endif
+set errorformat^=%-G%f:%l:\ warning:%m
